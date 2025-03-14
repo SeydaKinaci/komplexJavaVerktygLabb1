@@ -101,6 +101,7 @@ public class MovieService {
         return repository.findByDirector(director)
                 .map(MovieResponse::new)
                 .toList();
+
     }
 
 
